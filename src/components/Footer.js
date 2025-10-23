@@ -45,8 +45,8 @@ const Footer = () => {
             <div className="flex flex-col space-y-3">
               <FooterLink page="home">Home</FooterLink>
               <FooterLink page="hizmetler">Our Services</FooterLink>
-              <FooterLink page="galeri">Gallery</FooterLink>
-              <FooterLink page="iletisim">Contact</FooterLink>
+              <FooterLink page="gallery">Gallery</FooterLink>
+              <FooterLink page="contact">Contact</FooterLink>
             </div>
           </div>
 

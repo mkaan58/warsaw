@@ -8,8 +8,8 @@ const Navbar = () => {
 
   const mainNavLinks = [
     { title: 'Main', path: '/' },
-    { title: 'Gallery', path: '/galeri' },
-    { title: 'Contact', path: '/iletisim' },
+    { title: 'Gallery', path: '/gallery' },
+    { title: 'Contact', path: '/contact' },
   ];
 
   const curtainTypes = [

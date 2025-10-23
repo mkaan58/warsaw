@@ -19,7 +19,8 @@ import ReferanslarPage from './pages/ReferanslarPage'; // YENİ İMPORT
 import IletisimPage from './pages/IletisimPage'; // YENİ İMPORT
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
-const avatarUrl = "/sarissa-logo-avatar.png";
+// const avatarUrl = "/sarissa-logo-avatar.png";
+const avatarUrl = "https://ik.imagekit.io/46nvsdwq8/Sirinler/warsaw.svg?updatedAt=1761154173237";
 
 // Sayfa değiştiğinde en üste scroll yapma bileşeni
 function ScrollToTop() {
@@ -53,19 +54,19 @@ function App() {
 
           {/* Diğer Sayfalar (oluşturulunca eklenecek) */}
           <Route path="/hizmetler" element={<HizmetlerPage />} />
-          <Route path="/galeri" element={<GaleriPage />} />
+          <Route path="/gallery" element={<GaleriPage />} />
           <Route path="/referanslar" element={<ReferanslarPage />} />
-          <Route path="/iletisim" element={<IletisimPage />} />
+          <Route path="/contact" element={<IletisimPage />} />
         </Routes>
       </main>
       <Footer />
       
       <FloatingWhatsApp 
-        phoneNumber="905073075204"
-        accountName="Sarissa Perde"
-        statusMessage="Genellikle hemen yanıt veririz"
-        chatMessage={"Merhaba! 🤝\nSarissa Perde'ye hoş geldiniz. Size nasıl yardımcı olabiliriz?"}
-        placeholder="Mesajınızı yazın..."
+        phoneNumber="48123456789"
+        accountName="Inclusive Innovative Warsaw"
+        statusMessage="We answer within minutes!"
+        chatMessage={"Hi! 🤝\nWelcome to Inclusive Innovative.How can we help you ?"}
+        placeholder="Type your message..."
         avatar={avatarUrl}
         allowClickAway
         notification
