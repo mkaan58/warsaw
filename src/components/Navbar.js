@@ -10,6 +10,7 @@ const Navbar = () => {
     { title: 'Main', path: '/' },
     { title: 'Gallery', path: '/gallery' },
     { title: 'Contact', path: '/contact' },
+    { title: 'Courses', path: '/course' },
   ];
 
   const curtainTypes = [
