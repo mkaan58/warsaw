@@ -84,7 +84,7 @@ const IletisimPage = () => {
                                     <div className="ml-4">
                                         <h3 className="text-lg font-semibold text-gray-800">Email</h3>
                                         <a 
-                                            href="mailto:info@erasmuswarsaw.eu" 
+                                            href="mailto:inclusiveinnovative@gmail.com" 
                                             className="text-gray-600 transition-colors"
                                             onMouseEnter={(e) => e.target.style.color = '#8B1F1F'}
                                             onMouseLeave={(e) => e.target.style.color = '#4B5563'}

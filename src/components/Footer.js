@@ -75,7 +75,7 @@ const Footer = () => {
                 <span>+48 123 456 789</span>
               </a>
               <a 
-                href="mailto:info@erasmuswarsaw.eu" 
+                href="mailto:inclusiveinnovative@gmail.com" 
                 className="flex items-center text-gray-500 transition-colors"
                 onMouseEnter={(e) => e.currentTarget.style.color = '#8B1F1F'}
                 onMouseLeave={(e) => e.currentTarget.style.color = '#6B7280'}
