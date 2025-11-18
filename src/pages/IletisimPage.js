@@ -89,7 +89,7 @@ const IletisimPage = () => {
                                             onMouseEnter={(e) => e.target.style.color = '#8B1F1F'}
                                             onMouseLeave={(e) => e.target.style.color = '#4B5563'}
                                         >
-                                            info@erasmuswarsaw.eu
+                                            inclusiveinnovative@gmail.com
                                         </a>
                                     </div>
                                 </div>

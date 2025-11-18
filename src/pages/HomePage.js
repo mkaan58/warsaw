@@ -81,7 +81,7 @@ const HomePage = () => {
     const phoneNumber = '48123456789';
     const message = encodeURIComponent("Hello! I'm interested in Erasmus+ opportunities in Warsaw. I'd like to learn more about your programs.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-    const emailAddress = 'info@erasmuswarsaw.eu';
+    const emailAddress = 'inclusiveinnovative@gmail.com';
 
     const heroImageUrl = "https://images.unsplash.com/photo-1608817576203-3c27ed168bd2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1292";
     const aboutImageUrl = "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&auto=format&fit=crop";

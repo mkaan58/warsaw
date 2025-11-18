@@ -8,7 +8,7 @@ const ProjectPageLayout = ({ title, subtitle, heroImage, content, features, gall
     const phoneNumber = '48123456789';
     const message = encodeURIComponent(`Hello, I'm interested in learning more about ${title}. Can you provide more information?`);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-    const emailAddress = 'info@erasmuswarsaw.eu';
+    const emailAddress = 'inclusiveinnovative@gmail.com';
 
     return (
         <div className="animate-fade-in">

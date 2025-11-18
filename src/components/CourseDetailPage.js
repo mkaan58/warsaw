@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Clock, Users, Award, BookOpen, CheckCircle, Phone } from 'lucide-react';
 
 const CourseDetailPage = ({ courseData }) => {
-    const emailAddress = 'info@erasmuswarsaw.eu';
+    const emailAddress = 'inclusiveinnovative@gmail.com';
     const phoneNumber = '48123456789';
     const whatsappMessage = encodeURIComponent(`Hello! I'm interested in the course "${courseData.title}". Can you provide more information?`);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;

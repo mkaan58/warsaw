@@ -81,7 +81,7 @@ const Footer = () => {
                 onMouseLeave={(e) => e.currentTarget.style.color = '#6B7280'}
               >
                 <Mail size={18} className="mr-3 flex-shrink-0" />
-                <span>info@erasmuswarsaw.eu</span>
+                <span>inclusiveinnovative@gmail.com</span>
               </a>
               <div className="flex items-start text-gray-500">
                 <MapPin size={18} className="mr-3 mt-1 flex-shrink-0" />
